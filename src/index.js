@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import './scss/app.scss'
+import { html } from "../README.md";
 import Header from './components/Header'
 
 class HelloMessage extends React.Component {
@@ -8,7 +9,8 @@ class HelloMessage extends React.Component {
         return <div>
             <Header/>
             <div className="container">
-                <h1>Hello {this.props.name}</h1>
+                <h1>Markdown content as HTML</h1>
+                <div className="content" dangerouslySetInnerHTML={{__html: html}}></div>
             </div>
         </div>
     }
