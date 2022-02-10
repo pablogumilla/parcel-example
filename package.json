@@ -10,7 +10,7 @@
   "author": "Pablo Gumilla",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
